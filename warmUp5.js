@@ -3,6 +3,18 @@
 // - returns whichever number is the greater (higher) number.
 // ex greaterNum(5, 10) => "The greater number of 5 and 10 is 10."
 
+function greaterNum(n1, n2){
+	if( n1>n2){
+		return 'The greater number of '+ n1 +' and '+ n2 +' is '+ n1;
+	}
+	else if (n1<n2){
+		return 'The greater number of '+ n2 +' and '+ n1 +' is '+ n2;
+	}
+	else {
+		return n1+' and '+ n2 +' are equal.';
+	}
+}
+
 // 2) Write a function named isEven using  for loop that
 // -  iterate from x to y.
 // -  return array contain the even values,
