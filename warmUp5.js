@@ -3,6 +3,7 @@
 // - returns whichever number is the greater (higher) number.
 // ex greaterNum(5, 10) => "The greater number of 5 and 10 is 10."
 
+<<<<<<< HEAD
 function greaterNum(n1, n2){
 	if( n1>n2){
 		return 'The greater number of '+ n1 +' and '+ n2 +' is '+ n1;
@@ -14,18 +15,18 @@ function greaterNum(n1, n2){
 		return n1+' and '+ n2 +' are equal.';
 	}
 }
+=======
+>>>>>>> eedf4d1da29beb7f6472f832fb846002ed7197b5
 
 // 2) Write a function named isEven using  for loop that
 // -  iterate from x to y.
 // -  return array contain the even values,
 //  ex:  isEven(1,10) => [2,4,6,8,10]
 
-// function isEven(x, y) {
-
-// }
 //3) write a function named sum that
 // - Use a while loop to add up the numbers from x to y.
 // ex sum(1,5) => 15
+
 
 //4) Write a function named factorial that
 // -  Use Recursion to calculate the factorial of a number

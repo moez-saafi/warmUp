@@ -6,6 +6,7 @@
 // 2- Define a function called color in which returns true if type of the input is string
 // and returns false otherwise.
 
+<<<<<<< HEAD
 // 3-Write a JavaScript function that accepts a number as a parameter and check if the number
 // is prime or not.
 /*A prime number is a whole number greater than 1 whose only factors are 1 and itself. 
@@ -22,3 +23,10 @@ function samevalue(n1, n2){
 }
 	return false;
 }
+=======
+
+// 3-Write a JavaScript function that accepts a number as a parameter and check if the number is prime or not.
+
+// 4-write a function that accepts two numbers as parameters and returns true if the two parameters have the same value , false if not
+
+>>>>>>> eedf4d1da29beb7f6472f832fb846002ed7197b5
