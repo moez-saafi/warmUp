@@ -7,3 +7,16 @@
 // array: [ 1, 2, 3, 4 ], sub:[ 2, 3, 4 ] => true
 // array: [ 2, 2, 2, 3, 4 ], sub:[ 2, 4, 3 ] => true
 // array: [ 2, 3, 3, "a" ],  sub:[ 3, 3, 3, "a" ] => false
+
+
+function isSubset(arr1, arr2){
+	var array = [];
+	for (var i = 0; i<arr1.length; i++){
+		var j = 0;
+		while ( j<arr2.length){
+			if (arr2[j] === arr1[i]){
+				array.push(arr2[j]);
+			} j++;
+		}return array;
+	}return false;
+}
